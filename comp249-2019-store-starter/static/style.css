@@ -1,0 +1,292 @@
+/* Author: Arvin Han
+
+44195702 */
+
+html {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 2rem;
+  font-size: 2.5vw;
+}
+
+.product .image :hover {
+  width: 70%;
+}
+
+form input {
+  background-color: white;
+}
+
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+}
+
+nav li {
+  color: white !important;
+  display: inline-block;
+  font-size: 1.5vw;
+}
+
+nav ul {
+  list-style: none;
+  width: auto;
+  margin: 0;
+}
+
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: grey;
+}
+
+nav a.active {
+  background-color: none;
+  color: none;
+}
+
+
+
+.menu {
+  text-align: left;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.menu li {
+  padding: 0px 5px;
+}
+
+.account-menu {
+  display: block;
+  padding-left: 0;
+  width: 30%;
+  text-align: right;
+}
+
+.account-menu li {
+  padding: 0px 5px;
+}
+
+ul {
+  vertical-align: middle;
+}
+
+li {
+  background-position: 100%;
+}
+
+img {
+  width: 30%;
+  padding-left: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
+
+.featured {
+  display: block;
+  background-color: #f5f5dc;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.featured img {
+  width: 20%;
+  padding-left: 10%;
+}
+
+.image {
+  display: inline;
+}
+
+.product-detail {
+  display: inline-block;
+  width: 25%;
+  font-size: 2vw;
+}
+
+.featured h2 {
+  margin: 20px 0 4px 0;
+  background-color: #f5f5dc;
+  text-align: center;
+}
+
+.description {
+  display: inline-block;
+  width: 30%;
+  font-size: 2vw;
+  padding-bottom: 3px;
+}
+
+.productlist {
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  width: 24%;
+  margin: 2px;
+  padding: 0 0 5px 0;
+}
+
+.product:hover {
+  background-color: #f3f1f1;
+}
+
+h2>a {
+  color: black;
+  text-decoration: none;
+}
+
+.product input {
+  width: 50%;
+}
+
+#special-offer {
+  text-align: right;
+}
+
+#special-offer p {
+  font-size: 0.8vw;
+
+}
+
+
+#promo ul {
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+
+}
+
+#promo ul li {
+  display: inline;
+  padding: 15px;
+}
+
+#promo ul li a:hover {
+  cursor: default;
+}
+
+#promo ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+#product-search-form {
+  width: 15%;
+  height: 100%;
+  margin-top: 1%;
+  display: block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+#product-search-form input {
+  width: 85px;
+}
+
+#promotional-text p {
+  padding: 0 10%;
+  color: grey;
+}
+
+#promotional-text p a {
+  color: black;
+  text-decoration: underline;
+}
+
+#promotional-text p a:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: black;
+  color: black;
+}
+
+footer p {
+  display: inline;
+  font-size: 0.5rem;
+  color: white;
+  text-align: right;
+}
+
+#signupform {
+  display: inline;
+  text-align: right;
+}
+
+#signupform button span {
+  color: black;
+}
+
+#signupform span {
+  color: white;
+}
+
+.social h2 {
+  color: white;
+  text-align: left;
+}
+
+.social ul {
+  display: block;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social ul li {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+.social ul li a {
+  color: white;
+  padding: 0;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .featured img {
+    padding-left: 5%;
+  }
+}
